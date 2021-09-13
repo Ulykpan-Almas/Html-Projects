@@ -1,0 +1,47 @@
+.cate{
+	display: inline;
+	background-color: #4a76a8;
+	color: white;
+	width: 150px;
+	min-height: 40px;
+	margin-left: 50px;
+	text-align: center;
+}
+
+.cate a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	
+}
+.cate-con{
+	display: none;
+	background-color: white;
+	border: 1px solid #708fad;
+	border-radius: 5px;
+
+}
+.cate-con a{
+	display: block;
+	color: #708fad;
+	text-decoration: none;
+	padding: 10px;
+	border: 1px solid #e6e7e8;
+
+}
+.cate-con a:hover{
+	color: #708fad;
+	background-color: #d3d9de;
+
+}
+
+.cate:hover .cate-con{
+	display: block;
+	position: absolute;
+	width: 9%;
+}
+.nav :hover {
+	background-color: #d3d9de;
+}
+
+
